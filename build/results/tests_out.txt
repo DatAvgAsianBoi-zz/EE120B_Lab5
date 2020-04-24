@@ -1,0 +1,4 @@
+Breakpoint 1 at 0x12a: file source/main.c, line 19.
+Note: automatically using hardware breakpoints for read-only addresses.
+Detaching from program: /mnt/c/Users/User/Desktop/Coding_Stuff/EE120B/Lab5/build/objects/main.elf, Remote target
+Remote doesn't know how to detach
