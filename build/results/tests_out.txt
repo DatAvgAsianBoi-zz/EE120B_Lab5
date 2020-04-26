@@ -1,7 +1,7 @@
-Breakpoint 1 at 0x188: file source/main.c, line 27.
+Breakpoint 1 at 0x238: file source/main.c, line 66.
 Note: automatically using hardware breakpoints for read-only addresses.
 ======================================================
 Running all tests..."
 
-"Key, Person, Seatbelt => PORTC: 0x70"..."Key, Person, !Seatbelt => PORTC: 0xF0"..."Key, !Person, !Seatbelt => PORTC: 0x70"...======================================================
+"Pressed Twice => PORTC: 0x02"...======================================================
 Remote doesn't know how to detach
