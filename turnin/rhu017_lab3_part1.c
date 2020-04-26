@@ -24,10 +24,10 @@ int main(void) {
       //DDRB = 0x00; PORTB = 0xFF;
       DDRC = 0xFF; PORTC = 0x00;
       /* Insert your solution below */
-      unsigned char fuel_lvl = PINA & (0x0F);
+      unsigned char fuel_lvl = ~PINA & (0x0F);
       unsigned char output = 0x00;
       while (1) {
-            fuel_lvl = PINA & (0x0F);
+            fuel_lvl = ~PINA & (0x0F);
             output = 0x00;
 
             if(fuel_lvl > 12) //Level 13 - 15
@@ -45,7 +45,7 @@ int main(void) {
             if(fuel_lvl < 5)
                   output = output | 0x40;
 
-            if((PINA & 0x10) && (PINA & 0x20) && !(PINA & 0x40))
+            if((~PINA & 0x10) && (~PINA & 0x20) && !(~PINA & 0x40))
                   output = output | 0x80;
 
             PORTC = output;
