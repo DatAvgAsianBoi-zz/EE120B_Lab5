@@ -1,4 +1,7 @@
-Breakpoint 1 at 0x12a: file source/main.c, line 19.
+Breakpoint 1 at 0x188: file source/main.c, line 27.
 Note: automatically using hardware breakpoints for read-only addresses.
-Detaching from program: /mnt/c/Users/User/Desktop/Coding_Stuff/EE120B/Lab5/build/objects/main.elf, Remote target
+======================================================
+Running all tests..."
+
+"Key, Person, Seatbelt => PORTC: 0x70"..."Key, Person, !Seatbelt => PORTC: 0xF0"..."Key, !Person, !Seatbelt => PORTC: 0x70"...======================================================
 Remote doesn't know how to detach

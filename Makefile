@@ -39,7 +39,7 @@ TESTING=-batch -x $(TESTCOMMANDS) -x $(INITDEBUGGER) -x $(TESTSCRIPT)
 DEBUGGING=-x $(TESTCOMMANDS) -x $(INITDEBUGGER)
 # Programmer
 PROGRAM=avrdude
-PROGRAMMER=avrispmkii
+PROGRAMMER=avrisp2 
 MEMORY=flash
 #mem:op:file where op is (w)rite, (r)ead, (v)erify; performed in the order specified
 VERBOSITY=#-v -v ... etc. to have more verbose output. Normal output is usually enough unless something goes wrong. 
